@@ -8,10 +8,10 @@ body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .container {
