@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERPOL - Prova Oficial 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">INTERPOL</div>
+        <h1>PROVA OFICIAL DE SELEÇÃO<br>AGENTE ESPECIAL - 2026</h1>
+
+        <div class="warning">⚠️ ACESSO RESTRITO - NÍVEL SIGILOSO ⚠️</div>
+
+        <button id="btnAcessar">ACESSAR A PROVA</button>
+
+        <!-- A PROVA (só aparece depois) -->
+        <div id="provaDiv">
+            <button id="btnVideo" style="display: none;">  <!-- começa escondido -->
+    🎥 ASSISTIR VÍDEO SECRETO
+</button>
+            <div id="imagemCerta" style="margin-top:20px;"></div>
+            <h2>QUESTÃO ÚNICA - VALE 100 PONTOS</h2>
+            <p class="questao"><strong>É feijão e o que?</strong></p>
+            
+            <input type="text" id="resposta" placeholder="Digite sua resposta aqui..." autocomplete="off">
+            <br>
+            <button id="btnResponder">ENVIAR RESPOSTA</button>
+
+            <div id="resultado" class="resultado"></div>
+        </div>
+
+        <p style="margin-top:40px; font-size:16px; opacity:0.8;">
+            Atenção: a prova contém áudio confidencial. Use fone de ouvido.
+        </p>
+    </div>
+
+    <!-- ÁUDIO DO VELHINHO -->
+    <audio id="audioProva" preload="auto">
+        <source src="https://www.myinstants.com/media/sounds/feijao-com-farinha.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9db742272edeb4a1',t:'MTc3MzM2NTI2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"27a51fc7d1cd4058b900b2eea7bb7061","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e32042f7ba57cf8',t:'MTc3NDY1MjQ3OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
