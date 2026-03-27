@@ -4,6 +4,7 @@ body, #provaDiv {   /* ou qualquer div que role */
 }
 body {
     margin: 0; padding: 0;
+    padding: 20px;
     background: linear-gradient(180deg, #001f3f 0%, #000814 100%);
     color: #fff;
     font-family: 'Roboto', sans-serif;
