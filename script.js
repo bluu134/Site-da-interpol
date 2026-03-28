@@ -30,7 +30,9 @@ btnResponder.addEventListener('click', () => {
     const resposta = input.value.toLowerCase().trim();
 
     audio.currentTime = 0;
-    audio.play();
+audio.play().catch(err => {
+    console.log("Erro ao tocar áudio:", err);
+});
 
     const imagemDiv = document.getElementById('imagemCerta');
 
