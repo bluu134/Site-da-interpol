@@ -59,7 +59,7 @@ btnOuvirAudio.addEventListener('click', () => {
 
 // Botão de Vídeo
 btnVideo.addEventListener('click', () => {
-    window.open('https://www.tiktok.com/@entrevistandolendas/video/7395525031113035014', '_blank');
+    window.open('https://vt.tiktok.com/ZSH1KgdBf/', '_blank');
 });
 
 // Enter para responder
